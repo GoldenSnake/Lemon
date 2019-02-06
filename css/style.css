@@ -39,7 +39,8 @@ body {
 }
 
 .header {
-  padding-top: 225px;
+  margin-top: 225px;
+  margin-bottom: 85px;
   display: flex;
   flex-direction: column;
   
@@ -51,6 +52,7 @@ body {
 }
 
 .navigation {
+  box-sizing: border-box;
   padding-left: 95px;
   padding-right: 95px;
   padding-top: 43px;
@@ -78,4 +80,71 @@ body {
 
 .sub-menu {
   display: none;
+}
+
+.hit-recipes {
+  box-sizing: border-box;
+  margin-bottom: 85px;
+  padding-left: 95px;
+  padding-top: 49px;
+  padding-bottom: 56px;
+  min-width: 1120px;
+  background-color: #f8f8f8;
+  background-image:url(../img/hit-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  box-shadow: 0 0 10px 1px #c0c0c0;
+}
+
+.hit-recipes p {
+  max-width: 369px; 
+}
+
+.recipes {
+  margin-bottom: 87px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px 1px #c0c0c0; 
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer {
+  margin-top: 20px;
+  padding-left: 87px;
+  padding-right: 87px;
+  padding-top: 72px;
+  padding-bottom: 72px; 
+  background-color: #2f2f2f;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #979797;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.footer-navigation {
+  min-width: 479px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  min-width: 129px;
 }
