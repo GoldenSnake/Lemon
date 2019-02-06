@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Lemon</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,700|Open+Sans:300,400|Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img class="header-logo" src="img/logo-lemon-big.png" width="382" height="159" alt="Lemon">      
-      <nav class="navigation">
-      <a href=""><img src="img/logo-lemon-small.png" width="87" height="36" alt="Lemon"></a>
-      <ul class="site-navigation">
-        <li>Home</li>
-        <li>
-          Recipes
-          <ul class="sub-menu">
-            <li>Recommended</li>
-            <li>Popular</li>
-            <li>Quick & Easy</li>
-            <li>Healthy</li>
-            <li>Newest</li>
-          </ul>
-        </li>
-        <li>Photo Galleries</li>
-        <li>Videos</li>
-        <li>All Categories</li>
-      </ul>
-      <form class="search" action="https://echo.htmlacademy.ru" method="post">
-        <label class="visually-hidden" for="user-search">Find a recipe</label>
-        <input type="search" name="search" id="user-search" placeholder="Find a recipe">
-      </form>
-      </nav>
-    </header>
-    <main>
-      <h1 class="visually-hidden">"Lemon" recipes</h1>
-      
-      <section class="hit-recipes">
-        <img src="img/logo-lemon-mid.png" width="252" height="105" alt="Lemon">
-        <h2>Bananas Foster Ice Cream Cake</h2>
-        <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.
-        </p>
-        <a class="btn" href="">Get it recipe</a>
-      </section>
-    </main>
+    <div class="container">
+      <header class="header">
+        <img class="header-logo" src="img/logo-lemon-big.png" width="382" height="159" alt="Lemon">      
+        <nav class="navigation">
+        <a class="nav-link" href=""><img src="img/logo-lemon-small.png" width="87" height="36" alt="Lemon"></a>
+        <ul class="site-navigation page-list">
+          <li>Home</li>
+          <li>
+            Recipes
+            <ul class="sub-menu page-list">
+              <li>Recommended</li>
+              <li>Popular</li>
+              <li>Quick & Easy</li>
+              <li>Healthy</li>
+              <li>Newest</li>
+            </ul>
+          </li>
+          <li>Photo Galleries</li>
+          <li>Videos</li>
+          <li>All Categories</li>
+        </ul>
+        <form class="search" action="https://echo.htmlacademy.ru" method="post">
+          <label class="visually-hidden" for="user-search">Find a recipe</label>
+          <input type="search" name="search" id="user-search" placeholder="Find a recipe">
+        </form>
+        </nav>
+      </header>
+      <main>
+        <h1 class="visually-hidden">"Lemon" recipes</h1>
+
+        <section class="hit-recipes">
+          <img src="img/logo-lemon-mid.png" width="252" height="105" alt="Lemon">
+          <h2>Bananas Foster Ice Cream Cake</h2>
+          <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.
+          </p>
+          <a class="btn" href="">Get it recipe</a>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
